@@ -1,0 +1,10 @@
+<launch>
+        <node pkg="mid_project" type="Rear_Cam" name="Rear_Camera"/>
+        <node pkg="mid_project" type="Follower_Vehicle2" name="Following_Vehicles" output="screen"/>
+        <node pkg="mid_project" type="Traffic_Center" name="Traffic_Center" output="screen"/>
+        <node pkg="mid_project" type="GPS1.py" name="GPS" output="screen"/>
+        <node pkg="mid_project" type="Platoon_Control" name="Platoon_Control" output="screen"/>
+        <node pkg="mid_project" type="V2X" name="V2X_Control" output="screen"/>
+        <node pkg="mid_project" type="Leader_Vehicle" name="Leader_Vehicle" output="screen"/>
+</launch>
+

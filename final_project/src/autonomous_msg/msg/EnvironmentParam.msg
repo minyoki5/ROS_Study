@@ -1,0 +1,3 @@
+float64 fyf_max
+float64 fyr_max
+float64 slope_angle

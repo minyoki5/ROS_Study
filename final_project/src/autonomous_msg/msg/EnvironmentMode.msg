@@ -1,0 +1,2 @@
+string ice_mode
+string hill_mode
